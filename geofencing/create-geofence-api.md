@@ -4,7 +4,7 @@ description: >-
   users or groups.
 ---
 
-# Create Geofence API
+# CREATE Geofence API
 
 {% api-method method="post" host="https://api.roam.ai" path="/v1/api/geofence/" %}
 {% api-method-summary %}

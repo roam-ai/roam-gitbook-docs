@@ -4,7 +4,7 @@ description: >-
   project
 ---
 
-# Delete Geofence API
+# DELETE Geofence API
 
 {% api-method method="delete" host="https://api.roam.ai/v1/" path="api/geofence" %}
 {% api-method-summary %}

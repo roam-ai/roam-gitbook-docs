@@ -4,7 +4,7 @@ description: >-
   project using Update Geofence API.
 ---
 
-# Update Geofence API
+# UPDATE Geofence API
 
 {% api-method method="put" host="https://api.roam.ai" path="/v1/api/geofence/" %}
 {% api-method-summary %}
