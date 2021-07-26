@@ -18,5 +18,5 @@ Add the GeoSpark SDK to your Xcode Project by dragging the file into your Projec
 
 You can do this by selecting the project file in the navigator on the left side of the Xcode window, and then navigating to the Linked Frameworks and Libraries section. From there, click the + button to add the GeoSpark frameworks.
 
-![](../.gitbook/assets/2-ios%20%283%29.png)
+![](../.gitbook/assets/2-ios%20%283%29%20%281%29.png)
 

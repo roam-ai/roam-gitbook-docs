@@ -27,11 +27,11 @@ To configure the location services, add following entries to the `Info.plist` fi
 pod 'GeoSpark' 
 ```
 
-![](../.gitbook/assets/step-2img1.png)
+![](../.gitbook/assets/step-2img1%20%281%29.png)
 
 Then, in your project settings, go to `Capabilities > Background Modes` and turn on background fetch, location updates, remote-notifications.
 
-![](../.gitbook/assets/step-2img2.png)
+![](../.gitbook/assets/3%20%281%29.png)
 
 Then, go to Build Settings in the project targets and change `Always Embed Swift Standard Libraries` to `Yes`.
 
