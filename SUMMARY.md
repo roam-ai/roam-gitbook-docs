@@ -38,8 +38,8 @@
 
 * [Geofencing](geofencing/README.md)
   * [CREATE Geofence API](geofencing/create-geofence-api.md)
-  * [UPDATE Geofence API](geofencing/update-geofence-api.md)
   * [GET Geofence API](geofencing/get-geofence-api.md)
+  * [UPDATE Geofence API](geofencing/update-geofence-api.md)
   * [DELETE Geofence API](geofencing/delete-geofence-api.md)
 
 ## APIs
