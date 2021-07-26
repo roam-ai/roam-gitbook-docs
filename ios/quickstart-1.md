@@ -67,7 +67,7 @@ If you’re not familiar with using Cocoapods or prefer manual installation, we�
 
 Unzip the file and add the GeoSpark SDK `GeoSpark.framework` to your Xcode project by dragging the file into your Project Navigator.![](blob:https://geosparkai.atlassian.net/997da5b3-f160-437f-b240-4b6a5afe372b#media-blob-url=true&id=4b34491a-a000-4b02-9fa8-8df4f06342e8&collection=contentId-1064796161&contextId=1064796161&mimeType=image%2Fpng&name=wQcTKbTdAmnCM_Bij6T-sGoiJ8eBo-DRbUbiW_dvsuB14KNJi9EQ96o5E9O0Fu8toR_hmU7Xzgay-t-kt5y4sErnoKmI5o59sl4UfNivKrWlA2ys52MGFBwUOcx1RzRIvnklPLk2&size=49854&width=394&height=435)
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 You can do this by selecting the project file in the navigator on the left side of the Xcode window, and then navigating to the Linked Frameworks and Libraries section. From there, click the “+” button to add the GeoSpark framework.![](blob:https://geosparkai.atlassian.net/e188e1d2-6901-4cf0-9a81-b7a9abaab6d9#media-blob-url=true&id=8cafe20c-01c5-463a-8e79-6764701f4242&collection=contentId-1064796161&contextId=1064796161&mimeType=image%2Fpng&name=sde-FVntSuYdGFg42U3k4vq8lnC-ZvwTCT2o74X8ihXBY2n5HdTcrVSX2sMSFUnfi3OtBAc4besx5GP3zfLNXMZdZlTS1DLOERGtfgkj250TT5beO8ItPEFoRn_6Bvk131jXhWPi&size=34114&width=1194&height=564)
 
