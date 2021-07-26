@@ -51,7 +51,7 @@ Here are the API endpoints available to interact with the user profile data:
 
 {% page-ref page="trips-api/" %}
 
-{% page-ref page="geofencing-api/" %}
+{% page-ref page="../geofencing/" %}
 
 {% page-ref page="events-api/" %}
 

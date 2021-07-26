@@ -1,4 +1,4 @@
-# Geofencing API
+# Geofencing
 
 Geofence is a virtual perimeter for a real-world geographical area. A geofence can be dynamically generated for two types - a radius around a location point \(circle geofence\) or a pre-defined set of boundaries \(polygon geofence\), such as stores, neighborhoods, or even cities. 
 
@@ -37,7 +37,7 @@ Roam supports geofences of 2 different geometry type:
 
 A circle geofence is a radius around a location point. To create a circle geofence the **required body parameters** are **** `coordinates`, and `geometry_radius` .
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%284%29%20%281%29.png)
 
 #### Sample Request // Circle Geofence
 
@@ -92,7 +92,7 @@ curl --location --request POST 'https://api.roam.ai/v1/api/geofence/' \
 
 A polygon geofence is a set of pre-defined boundaries of any shape around a location area. To create a circle geofence the **required body parameters** are ****`geometry_type`  and`coordinates`.
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../.gitbook/assets/image%20%283%29.png)
 
 #### Same Request to create a Polygon geofence
 
@@ -192,7 +192,7 @@ Let's you monitor geofence events for a specific user or a list of users, by pas
 
 Pass a `user_id` under the `"user_ids"` body parameter. Pass an array of  `user_id` to create a geofence specific for multiple users.
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../.gitbook/assets/image%20%286%29.png)
 
 #### Sample Request  for single User ID
 
@@ -236,7 +236,7 @@ curl --location --request POST 'https://api.roam.ai/v1/api/geofence/' \
 
 Pass a `group_id` under the `"group_ids"` body parameter. Pass multiple and array of `group_id`  to create a geofence specific for multiple groups.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2812%29.png)
 
 #### Sample Request  for single Group ID
 
@@ -278,7 +278,7 @@ curl --location --request POST 'https://api.roam.ai/v1/api/geofence/' \
 
 ## Time-Aware Geofence
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Create time aware geofences to trigger events between a specific time range by passing date and time in an array as 2nd and 3rd element to `is_enabled`field of the body parameters.
 
@@ -336,7 +336,7 @@ curl --location --request POST 'https://api.roam.ai/v1/api/geofence/' \
 
 Adding a `description` and `metadata` can help identify and personalize the geofences while displaying them on a map.  You can add this information while creating a geofence or updating a geofence. 
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 #### Sample Request
 
@@ -402,7 +402,7 @@ Adding `tag` can help filter geofences easily by the tag. This field is optional
 
 `color_code` defines the color of Geofence and how it is displayed on the dashboard. Hex Code for CSS colors should be passed in this field without `#`. 
 
-![](../../.gitbook/assets/image.png)
+![](../.gitbook/assets/image.png)
 
 #### Sample Request
 
@@ -586,13 +586,13 @@ To process geofences for a user,  `geofence_events` flag must be set to true for
 
 Roam supports posting of events to webhook in realtime. To enable posting events via webhook first the webhook url needs to be configured in the project using the dashboard \(Project Settings -&gt; integration\) and should be enabled.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 ### Events via API
 
 Geofence events can be retrieved using Roam API. The Get Events API lets you fetch the entry or exit events of the users from your event enabled geofences. The API also lets you filter by user or geofence, location, and more.
 
-{% page-ref page="../events-api/get-events.md" %}
+{% page-ref page="../apis/events-api/get-events.md" %}
 
 ## Delete Geofence
 

@@ -32,6 +32,16 @@
 * [React Native](https://github.com/roam-ai/roam-reactnative)
 * [Flutter](https://github.com/roam-ai/roam-flutter)
 
+## PRODUCTS
+
+---
+
+* [Geofencing](geofencing/README.md)
+  * [Create Geofence API](geofencing/create-geofence-api.md)
+  * [Update Geofence API](geofencing/update-geofence-api.md)
+  * [GET Geofence API](geofencing/get-geofence-api.md)
+  * [Delete Geofence API](geofencing/delete-geofence-api.md)
+
 ## APIs
 
 * [Authorization](apis/authorization.md)
@@ -52,11 +62,6 @@
   * [Delete Trip API](apis/trips-api/delete-trip-api.md)
   * [Trip Summary API](apis/trips-api/trip-summary-api.md)
   * [Export Trip Summary as GPX](apis/trips-api/export-trip-summary-as-gpx.md)
-* [Geofencing API](apis/geofencing-api/README.md)
-  * [Create Geofence API](apis/geofencing-api/create-geofence-api.md)
-  * [Update Geofence API](apis/geofencing-api/update-geofence-api.md)
-  * [GET Geofence API](apis/geofencing-api/get-geofence-api.md)
-  * [Delete Geofence API](apis/geofencing-api/delete-geofence-api.md)
 * [Events API](apis/events-api/README.md)
   * [Get Events](apis/events-api/get-events.md)
   * [Trip Events](apis/events-api/trip-events.md)

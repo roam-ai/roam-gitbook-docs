@@ -45,7 +45,7 @@ To integrate the Roam SDK, you need a Roam account.
 
 Next you need to enable`Background fetch` and `Location updates` under `Project Setting` &gt; `Capabilities` &gt; `Background Modes`.
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%288%29%20%281%29.png)
 
 ## SDK Installation <a id="CocoaPods-Installation"></a>
 
